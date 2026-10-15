@@ -2,6 +2,8 @@
 
 The static site is structured for crawling; search engines decide whether and where to index or rank it. Do not promise ranking positions.
 
+Owner decision: Google Search Console, Bing Webmaster Tools and Yandex Webmaster ownership verification/sitemap submission are deferred until the publisher chooses to resume SEO registration. No verification tokens are configured.
+
 ## After GitHub Pages is enabled
 
 - Open each canonical URL on desktop and mobile and confirm images, navigation, calculator, guides, privacy page and 404 work.
