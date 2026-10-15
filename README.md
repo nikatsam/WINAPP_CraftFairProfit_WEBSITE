@@ -24,7 +24,8 @@ The validator checks HTML metadata, unique canonicals/titles, local links/resour
 
 ## Release notes
 
-- `privacy.html` is a product/privacy statement draft. The publisher must replace its legal identity and contact placeholders and review the policy and Partner Center declarations before Store submission.
-- The app has not been published or certified. The Microsoft Store link is intentionally a clearly labelled placeholder.
+- The public publisher name is Nikatsam. `privacy.html` remains a draft until the publisher verifies its Partner Center identity, supplies a private privacy/data-rights contact and reviews the policy against the release build.
+- The app has not been published or certified. The Microsoft Store link is a FairProfit search, not a live listing.
+- Public GitHub Issues are available for technical product support only; users should not post personal or sensitive information there.
 - `SERP_RESEARCH.md` records qualitative query intent and search-access limitations. It contains no fabricated search volume, ranking or traffic claims.
 - Add the verified site to Google Search Console, Bing Webmaster Tools and Yandex Webmaster and submit `sitemap.xml` after Pages is live. Search engine indexing and rankings cannot be guaranteed.

@@ -12,7 +12,7 @@ The static site is structured for crawling; search engines decide whether and wh
 
 ## Before Microsoft Store submission
 
-- Replace the legal publisher/contact placeholders in `privacy.html` with owner-approved details and have the policy reviewed against the final app build and Partner Center declarations.
+- Verify that the public publisher name `Nikatsam` matches the Partner Center publisher identity; supply a private privacy/data-rights contact in `privacy.html` and review the policy against the final app build and Partner Center declarations.
 - Replace the Store placeholder only after a real Microsoft Store listing is published and its canonical URL is known.
 - Re-capture and review genuine screenshots from the release build; current site screenshots are from the demo workspace.
 - Recheck all product claims, Windows requirements, privacy statements, copyright and locale copy.
