@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f3e9">
+  <title>Privacy policy | FairProfit Desktop</title>
+  <meta name="description" content="Privacy information for FairProfit Desktop, the local-first Windows craft-fair planner, and this static product website.">
+  <link rel="canonical" href="https://nikatsam.github.io/WINAPP_CraftFairProfit_WEBSITE/privacy.html">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Privacy policy | FairProfit Desktop">
+  <meta property="og:description" content="How the FairProfit Windows app and its static information website handle information.">
+  <meta property="og:url" content="https://nikatsam.github.io/WINAPP_CraftFairProfit_WEBSITE/privacy.html">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://nikatsam.github.io/WINAPP_CraftFairProfit_WEBSITE/"},{"@type":"ListItem","position":2,"name":"Privacy policy","item":"https://nikatsam.github.io/WINAPP_CraftFairProfit_WEBSITE/privacy.html"}]}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="FairProfit Desktop home"><span class="brand-mark" aria-hidden="true"><span>F</span></span><span class="brand-name">fairprofit<span>desktop</span></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Main navigation"><a href="index.html#features">Features</a><a href="guides/index.html">Seller guides</a><a href="index.html#questions">FAQs</a><a class="nav-cta" href="index.html#store">Store status <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main" class="section-wrap guide-page">
+    <header class="guide-hero">
+      <nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li aria-current="page">Privacy policy</li></ol></nav>
+      <p class="eyebrow">Last reviewed: 15 October 2026 · Draft for publisher review</p>
+      <h1>Privacy, <em>in plain language.</em></h1>
+      <p class="guide-dek">FairProfit Desktop is designed to keep your business records on your Windows device. This policy explains the app’s local data handling and what to expect when you visit this information website.</p>
+      <p class="privacy-draft"><strong>Publisher action required:</strong> before Microsoft Store submission, the publisher must insert its verified legal name and contact details, confirm this policy against the release build and Partner Center declarations, and obtain appropriate legal review. Do not submit this draft as a final legal declaration until those checks are complete.</p>
+    </header>
+    <article class="article-body privacy-body">
+      <h2>Who this policy is for</h2>
+      <p>This policy covers the FairProfit Desktop Windows application (“the app”) and the static FairProfit Desktop information website (“the website”). The app is currently pre-release and has not been published or certified by Microsoft Store. The publisher’s legal identity and support contact have not yet been finalised; these must be supplied by the publisher before release.</p>
+
+      <h2>Information in the app</h2>
+      <p>The app has no sign-in flow, cloud-sync service, advertising SDK, analytics SDK, telemetry service or business-data upload client in the current authored application. It is designed for local, offline use; an internet connection is not required after installation for the app’s planning features.</p>
+      <p>When you use the app, its local database may contain the business display name you enter; products and SKUs; prices and unit costs; event names, dates, venues and location notes; expected and actual expenses; stock quantities; manually entered sales, payment methods, refunds and void reasons; and audit records of actions. These records can be commercially sensitive.</p>
+      <ul>
+        <li>Normal workspace: `%LOCALAPPDATA%\FairProfit\data\fairprofit.db`.</li>
+        <li>Demo workspace: `%LOCALAPPDATA%\FairProfit-Demo`, isolated from the normal workspace.</li>
+        <li>Verified backups: `%LOCALAPPDATA%\FairProfit\backups`, unless you choose another folder.</li>
+        <li>Redacted diagnostics: `%LOCALAPPDATA%\FairProfit\logs`; if unavailable, the app uses a FairProfit folder under the Windows temporary directory.</li>
+      </ul>
+      <p>Data is not encrypted by FairProfit itself. Access is governed by your Windows account and file-system permissions. Anyone who can access your Windows profile or a copied database/backup may be able to read its contents. Protect the device and backup files, and review a database or backup before sharing it.</p>
+
+      <h2>Diagnostics and backups</h2>
+      <p>Diagnostic entries are written locally and include a UTC timestamp, event code, severity, correlation ID and exception type. Exception messages and stack traces are omitted by design. Logs rotate or expire according to the app’s configured local retention policy. A backup is a copy of your business data; creating it does not transmit it to FairProfit.</p>
+      <p>You control the local data and backups. Removing the app does not necessarily remove databases or backups from your profile. To remove them, close the app and manage the relevant local FairProfit folders yourself, taking care not to delete data you need. Windows temporary-file cleanup may affect a fallback log folder.</p>
+
+      <h2>Information on this website</h2>
+      <p>The website is a static GitHub Pages site. It has no account, contact form, advertising tags, analytics script, tracking pixel or cookie-setting code. The small break-even illustration runs in your browser and does not save or send the values you enter. The Microsoft Store button opens Microsoft’s general Store website; it is only a placeholder and no FairProfit listing is live.</p>
+      <p>GitHub hosts the pages and may process technical request information, such as IP address, browser details and request time, under GitHub’s own service terms and privacy notice. The FairProfit site publisher does not operate GitHub’s hosting logs or control GitHub’s retention. If you follow an external link, the destination’s privacy policy applies.</p>
+
+      <h2>Microsoft Store</h2>
+      <p>If the app is later published, Microsoft may process information under its own Microsoft Store, Windows and account policies. This draft does not make a claim about Microsoft’s processing. The publisher must review the shipped build, the final Store flow and Partner Center privacy declarations together before submission. No publication or certification has occurred.</p>
+
+      <h2>Children, changes and contact</h2>
+      <p>FairProfit is a business-planning tool for adult sellers and is not designed to collect information from children. The publisher should update this policy if app or website data practices change and provide an effective date and version history at release.</p>
+      <p><strong>Publisher:</strong> [Legal publisher name to be confirmed]<br><strong>Privacy/support contact:</strong> [Publisher-approved contact details to be added before release]</p>
+      <p>This document is a product privacy statement draft, not legal advice. The final data-controller identity, applicable rights and contact process depend on the publisher and jurisdiction and must be reviewed before distribution.</p>
+      <div class="article-cta"><p>Looking for the product overview?</p><a href="index.html">Explore FairProfit Desktop →</a></div>
+    </article>
+  </main>
+  <footer class="site-footer"><div class="footer-top"><a class="brand brand-footer" href="index.html"><span class="brand-mark" aria-hidden="true"><span>F</span></span><span class="brand-name">fairprofit<span>desktop</span></span></a><p>Make, pack, sell, learn.<br>A calmer way to plan the next fair.</p><a class="back-top" href="#main">Back to top ↑</a></div><div class="footer-bottom"><span>FairProfit Desktop · pre-release product information</span><nav aria-label="Footer"><a href="guides/index.html">Seller guides</a><a href="privacy.html">Privacy policy</a></nav><span>© 2026 FairProfit Desktop</span></div><p class="footer-disclaimer">Privacy policy draft. Publisher identity and contact details require owner approval before Store submission.</p></footer>
+  <script src="script.js" defer></script>
+</body>
+</html>

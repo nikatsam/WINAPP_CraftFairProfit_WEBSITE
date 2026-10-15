@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nikatsam.github.io/WINAPP_CraftFairProfit_WEBSITE/sitemap.xml
