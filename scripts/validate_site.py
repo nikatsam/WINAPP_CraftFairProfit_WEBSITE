@@ -42,6 +42,7 @@ class PageParser(HTMLParser):
         self.title = ""
         self.in_title = False
         self.h1_count = 0
+        self.breadcrumb_nav_count = 0
         self.ids: set[str] = set()
         self.meta: dict[tuple[str, str], str] = {}
         self.canonical: list[str] = []
@@ -58,6 +59,8 @@ class PageParser(HTMLParser):
             self.ids.add(values["id"])
         if tag == "h1":
             self.h1_count += 1
+        if tag == "nav" and "breadcrumbs" in values.get("class", "").split():
+            self.breadcrumb_nav_count += 1
         if tag == "title":
             self.in_title = True
         if tag == "meta":
@@ -143,6 +146,8 @@ def validate_site() -> list[str]:
             failures.append(prefix + f"meta description length {len(description)} is outside 70-190")
         if parser.h1_count != 1:
             failures.append(prefix + f"expected exactly one H1, found {parser.h1_count}")
+        if parser.breadcrumb_nav_count < 1:
+            failures.append(prefix + "missing visible breadcrumb navigation")
         if page.name != "404.html" and parser.canonical != [expected_canonical]:
             failures.append(prefix + f"expected one canonical URL: {expected_canonical}")
         if page.name != "404.html" and "noindex" in robots.lower():

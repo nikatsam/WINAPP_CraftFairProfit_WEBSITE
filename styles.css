@@ -41,6 +41,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .menu-toggle span { display: block; height: 1px; background: var(--ink); margin: .33rem 0; }
 .hero { min-height: min(50rem, calc(100svh - 5.2rem)); position: relative; display: grid; grid-template-columns: minmax(0, .9fr) minmax(24rem, 1.1fr); align-items: center; gap: 2rem; padding-block: 4.7rem 5.1rem; }
 .hero-copy { max-width: 39rem; position: relative; z-index: 2; padding-bottom: 2rem; }
+.home-breadcrumbs { margin-bottom: .75rem; }
 .eyebrow { margin: 0 0 1.05rem; text-transform: uppercase; font-size: .69rem; letter-spacing: .17em; line-height: 1.4; font-weight: 800; color: var(--coral-dark); }
 .live-dot { display: inline-block; width: .55rem; height: .55rem; margin-right: .42rem; border-radius: 50%; background: var(--coral); box-shadow: 0 0 0 .25rem rgba(223,111,75,.16); animation: pulse 2.6s infinite; }
 h1, h2, h3, p { margin-top: 0; }
@@ -264,6 +265,7 @@ h2 { margin-bottom: 0; font-size: clamp(2.8rem, 5.2vw, 4.9rem); }
 .guide-hub .guide-cards { grid-template-columns: repeat(2,1fr); }
 .hub-note { max-width: 49rem; color: var(--ink-soft); }
 .not-found { min-height: 55vh; display: grid; place-content: center; text-align: center; }
+.not-found .breadcrumbs ol { justify-content: center; }
 .not-found h1 { max-width: 14ch; margin-inline: auto; }
 .not-found p { color: var(--ink-soft); }
 .reveal-ready .reveal { opacity: 0; transform: translateY(1rem); transition: opacity .7s ease, transform .7s cubic-bezier(.2,.65,.3,1); }
