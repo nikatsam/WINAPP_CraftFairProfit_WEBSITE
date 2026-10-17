@@ -1,27 +1,59 @@
-# Search Intent Notes
+# SERP Analysis and Phrase Map
 
-Research date: 15 October 2026. Market: English-language searches, with UK spelling/currency for the product audience.
+Research date: 16 October 2026. Language/market: website is `en-GB` with GBP examples; the Partner Center listing is US English. This is qualitative search-intent research, not keyword-volume or ranking research.
 
-## Scope and evidence limits
+## Collection Method and Limits
 
-This is a qualitative intent map, not keyword-volume research. Google Search blocked automated retrieval and returned its access-help page. Yandex presented SmartCaptcha. Bing requests were accessible but noisy and did not provide stable, relevant results for several exact long-tail phrases. No search-volume, ranking, competition, or traffic estimates are claimed. Recheck with Search Console, Bing Webmaster Tools, Yandex Webmaster and a human-reviewed SERP before making ranking or demand claims.
+Google queries attempted through automated retrieval:
 
-## Query clusters to answer
+- `craft fair profit calculator`
+- `craft fair inventory planner`
+- `craft fair planner software`
+- `craft fair planner app`
 
-| Intent cluster | Example question/phrase | Page that answers it | Useful answer |
+Google returned its access/help page rather than organic results. No Google ranking, result composition, or volume claim can be made from this check.
+
+Bing queries attempted through its HTML and RSS result views:
+
+- `craft fair profit calculator`
+- `craft fair inventory planner`
+- `craft fair planner software`
+- `market stall inventory spreadsheet`
+- `market stall sales tracker`
+- `craft business profit tracking`
+
+Bing retrieval was inconsistent across the distinct queries. The returned sample was frequently broad craft-supply/inspiration content and included clearly unrelated matches for some exact market-stall phrases. One result set surfaced a general note-taking product named Craft, illustrating brand/topic ambiguity. Treat this as evidence that this automated retrieval was noisy, not as a reliable representation of stable live rankings. No search volume, competition score, traffic estimate, or position is claimed.
+
+## Intent Findings
+
+The most defensible opportunities come from the product's verified functions and the site's existing useful pages, not from inferred volume:
+
+| Search intent | Phrase family to use naturally | Best destination | Match to current product/content |
 |---|---|---|---|
-| Event profit | how to calculate profit at a craft fair; craft fair profit calculator | `guides/craft-fair-profit.html` | Separate sales, discounts/refunds, product cost, known fees and event expenses; explain provisional/final and estimate limits. |
-| Stock planning | craft fair stock checklist; how much stock to bring to a craft fair | `guides/craft-fair-inventory-checklist.html` | Plan units by product, use past experience carefully, count what goes and returns; no universal demand prediction. |
-| Event costs | craft fair expenses; market stall cost checklist | `guides/craft-fair-costs.html` | Pitch, travel, parking, accommodation, supplies and processing fees; warn against double-counting product cost. |
-| Go/no-go decision | is a craft fair worth it; should I book a market stall | `guides/is-a-craft-fair-worth-it.html` | Compare a contribution-based estimate to costs and time; encourage a small test and honest actuals, not a guaranteed answer. |
-| Price setting | how to price handmade products for a craft fair | `guides/craft-fair-pricing.html` and FAQ | Explain cost and contribution concepts without prescribing a universal markup or guaranteeing a sale price. |
-| Offline record keeping | record cash and card sales at a craft fair | product FAQ/features | State manual entry, no payment processing/terminal connection, local storage and the optional manual fee input. |
-| Side income / boot sale | tracking sales at a boot sale; clearing handmade overstock | illustrative story and FAQ | Explain limited fit for products and event totals; distinguish this from a marketplace, auction, barcode or household-clearance app. |
+| Estimate whether an event can cover costs | craft fair profit calculator; calculate craft fair profit; craft fair break-even | Homepage calculator and `guides/craft-fair-profit.html` | Homepage has an illustrative calculator; guide explains the formula and limitations. Describe estimates, not guaranteed income. |
+| Prepare products and quantities | craft fair stock checklist; craft fair inventory checklist; what stock to bring to a craft fair | `guides/craft-fair-inventory-checklist.html` | Existing print-friendly checklist and the app's planned/brought/returned stock workflow. |
+| Understand event costs | craft fair expenses; market stall costs; market stall expenses | `guides/craft-fair-costs.html` | Existing guide covers pitch, travel, supplies, processing fees and avoiding double-counting product cost. |
+| Decide whether to book | is a craft fair worth it; should I book a market stall | `guides/is-a-craft-fair-worth-it.html` | Existing decision framework explains uncertainty and contribution without promising a result. |
+| Set prices for handmade products | how to price handmade products; handmade product unit cost | `guides/craft-fair-pricing.html` | Existing guide explains unit cost and contribution without prescribing a universal markup. |
+| Keep event sales and results organized | craft fair sales tracker; track craft market sales offline; craft fair planner for sellers | Homepage features/FAQ and Partner Center listing | App records manual sales, payment methods, refunds, actual expenses and comparisons; it is not a card terminal, marketplace, or accounting package. |
 
-## On-page/search-engine choices
+## Query Ambiguity and Positioning
 
-- Each page answers one primary intent in a descriptive title, one H1, a concise introduction and useful subheadings.
-- Static, crawlable HTML is the content source; JavaScript only enhances navigation, reveal effects and a local-only calculator.
-- Use canonical URLs, a sitemap, permissive robots.txt, descriptive image alternative text, internal links, semantic landmarks and valid JSON-LD that matches visible content.
-- Do not stuff synonyms, create doorway pages, fabricate reviews or customer outcomes, or promise rich results. FAQ markup is descriptive structured data; search engines decide whether to show enhancements.
-- Add the verified public site property to Google Search Console, Bing Webmaster Tools and Yandex Webmaster after the Pages URL is live. Submit the sitemap and inspect indexing/crawl reports. Ownership verification tokens are intentionally not fabricated.
+- The word `craft` alone is ambiguous with craft-supply retailers, DIY projects, and unrelated software brands. Pair it with event/seller terms such as `craft fair`, `market stall`, `seller`, `stock checklist`, `event costs`, or `profit`.
+- `craft fair profit calculator` is the clearest tool-intent phrase for the homepage because it contains an actual browser-side illustrative calculator and leads to an offline event planner. Clearly distinguish the webpage calculator from the app's product-mix forecast.
+- `craft fair stock checklist` and `market stall costs` map to existing guides and should be used as descriptive page language, not repeated unnaturally across every page.
+- Do not target `spreadsheet` as if FairProfit were a spreadsheet. The app is a Windows desktop planner; explanatory copy may compare it to a spreadsheet only when that is useful and accurate.
+- Use US spelling such as `catalog` in the US Store listing. Keep UK English and GBP on the website unless its audience or locale changes.
+
+## On-Page Changes
+
+- Homepage title and meta description lead with the offline craft-fair planner and craft-fair profit-calculator use cases; the page intro explains stock, costs and results.
+- Existing guide pages retain one distinct intent each: profit calculation, inventory checklist, event costs, worth-it decision, and handmade pricing.
+- Partner Center description uses related terms in complete sentences and states offline/local behavior, estimates, and limitations; it does not promise rankings or results.
+- Existing guide links and navigation connect the homepage calculator to the profit guide and link stock/cost decisions to their focused guides.
+
+## Measurement and Next Review
+
+- After site-property ownership is verified, review Google Search Console and Bing Webmaster Tools query/impression/click reports. Webmaster verification and sitemap submission remain owner-deferred.
+- Re-run human-reviewed Google and Bing searches from the intended country/device before reporting competitors or ranking changes; SERPs vary by location, personalization, device, and time.
+- Keep phrase usage natural. Do not invent volume, rankings, competitor claims, testimonials, or market statistics. Search-engine retrieval in this automated session was insufficient to support those claims.

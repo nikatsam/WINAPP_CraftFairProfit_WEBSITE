@@ -14,7 +14,7 @@ Owner decision: Google Search Console, Bing Webmaster Tools and Yandex Webmaster
 
 ## Before Microsoft Store submission
 
-- Verify that the public publisher name `Nikatsam` matches the Partner Center publisher identity; supply a private privacy/data-rights contact in `privacy.html` and review the policy against the final app build and Partner Center declarations.
+- Confirm the published privacy policy matches the final app build and Partner Center declarations. The owner selected the public repository Issues page for privacy/data-rights inquiries; make sure the warning not to post sensitive details remains visible and review whether this public channel is sufficient for applicable privacy-rights handling.
 - Replace the Store placeholder only after a real Microsoft Store listing is published and its canonical URL is known.
 - Re-capture and review genuine screenshots from the release build; current site screenshots are from the demo workspace.
 - Recheck all product claims, Windows requirements, privacy statements, copyright and locale copy.

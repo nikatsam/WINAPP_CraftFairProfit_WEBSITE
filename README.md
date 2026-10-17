@@ -24,8 +24,8 @@ The validator checks HTML metadata, unique canonicals/titles, local links/resour
 
 ## Release notes
 
-- The public publisher name is Nikatsam. `privacy.html` remains a draft until the publisher verifies its Partner Center identity, supplies a private privacy/data-rights contact and reviews the policy against the release build.
-- The app has not been published or certified. The Microsoft Store link is a FairProfit search, not a live listing.
-- Public GitHub Issues are available for technical product support only; users should not post personal or sensitive information there.
+- The public publisher name is Nikatsam. `privacy.html` describes the published app and points privacy/data-rights inquiries to the public repository Issues page; users are warned not to post sensitive details.
+- Craft Fair Profit is published on Microsoft Store at <https://apps.microsoft.com/detail/9PNZ4GH53SWP> (Store ID `9PNZ4GH53SWP`).
+- Public GitHub Issues are available for technical support and privacy/data-rights inquiries; users should not post personal or sensitive information there.
 - `SERP_RESEARCH.md` records qualitative query intent and search-access limitations. It contains no fabricated search volume, ranking or traffic claims.
-- Add the verified site to Google Search Console, Bing Webmaster Tools and Yandex Webmaster and submit `sitemap.xml` after Pages is live. Search engine indexing and rankings cannot be guaranteed.
+- Webmaster verification and sitemap submission remain owner-deferred. Search engine indexing and rankings cannot be guaranteed.
